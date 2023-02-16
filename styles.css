@@ -1,0 +1,608 @@
+html{
+    font-family: "Open Sans" sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+body{
+   
+    margin: 0px !important;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.02), 0 3px 10px 0 rgba(0, 0, 0, 0.08);
+
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img{
+    width: 56px;
+    height: 56px;
+    padding: .8rem 2rem .8rem;
+    border-radius: 50%;
+}
+
+nav .logo .title{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+nav ul li{
+    color: black;
+    padding: 7px 10px;
+}
+
+nav ul li :hover{
+    color: gray;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Home Page Styles */
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    margin-bottom: 10rem;
+}
+
+main>.three>.row{
+   justify-content: center;
+   align-items: center;
+}
+
+main>.three>.row>.column{
+   margin: 1rem;
+   width: 35rem;
+   height: 28rem;
+   padding: 0%;
+}
+
+main>.three>.row>.column> a >img{
+    width: 35rem;
+    height: 28rem;
+}
+
+main>.three>.row>.column> a >img:hover{
+   transition: all 2s ease-out;
+   transform: scale(1.07);
+}
+
+.column{
+    margin-top: 2rem;
+    padding: 3.5rem;
+}
+
+.row > .column > h1{
+    font-size: 4rem;
+}
+
+.row >.column> p{
+    line-height: 1.5em;
+    font-size: 1.8rem;
+}
+
+.two> h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.two>.row{
+    justify-content: center;
+    align-items: center;
+}
+
+.two> .row> .col{
+    border-radius: 5px;
+    width: 20rem;
+    height: 27rem;
+    margin: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.two > .row >.col> a >img{
+    width: 16rem;
+    height: 13rem;
+    padding: 1rem 0rem 0rem 2rem;
+}
+
+.two > .row> .col > p, h3{
+    padding: 0rem 2rem 0rem;
+}
+
+.two > .row> .col>p>button{
+   width: 4rem;
+   margin-top: 5px;
+}
+
+.two> .row >.col>a> img:hover{
+    transition: all 2s ease-out;
+    transform: scale(1.11);
+}
+button{
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.1), 0 4px 18px 0 rgba(0, 0, 0, 0.16);
+
+}
+
+/* Coffee Blends Styles */
+.coffeeblends>.two>.row>.col{
+    width: 30rem;
+    height: 35rem;
+
+}
+
+.coffeeblends>.subpage-one>.row{
+    justify-content: center;
+    align-items: center;
+}
+
+.coffeeblends>.subpage-one>.row>.column{
+    width: 40%;
+    background-color: rgba(0,0,0,0.02);
+
+}
+
+.coffeeblends>.two>h3{
+    font-size: larger;
+    text-align: center;
+}
+
+.coffeeblends>.two>.row>.col>h4{
+   text-align: center;
+
+}
+
+.coffeeblends>.two>.row>.col>a>img{
+    width: 25rem;
+    height: 20rem;
+
+}
+
+.coffeeblends>.two>.row>.col>a>img:hover{
+   transition: all 2s ease-out;
+   transform: scale(1.15);
+
+}
+
+/* Unique Blends Styles */
+.subpage-one> h2,h3{
+   text-align: center;
+   font-size: 2rem;
+    margin-top: 2rem;
+
+}
+
+.subpage-one>.row>.column{
+    padding-top: 1rem;
+}
+.subpage-one> .row> .column img{
+    width: 35rem;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.coffeeblend> .two>.row> .col p{
+    margin-bottom: 5rem;
+}
+
+.coffeeblend> .two>.row> .col {
+    width: 20rem;
+    height: 40rem;
+}
+
+.coffeeblend> .two>.row> .col>img {
+    width: 20rem;
+    height: fit-content;
+}
+
+.coffeeblend> .two>.row> .col> h4 {
+margin-left: 2rem;
+}
+
+.coffeeblend> .two>.row> .col > p> button,b {
+    margin-top: 2rem;
+}
+
+/* Brewing Equipment Styles */
+.equipment> .two>.row>.col{
+    width: 20rem;
+    height: 37rem;
+ }
+
+ .equipment> .two>.row>.col>p{
+   font-size: 1.2em;
+ }
+
+ .equipment> .two>.row>.col>h4{
+    margin-left: 2rem;
+ }
+ 
+ .equipment> .two>.row>.col>img{
+    width: 20rem;
+    height: fit-content;
+ }
+/* Learn With Us Styles */
+.learn> .two> .row> .col{
+    width: 30rem;
+    height: 29rem;
+}
+
+.learn> .two> .row> .col>span>button{
+   margin: 2rem;
+}
+
+/* Our Cafes Styles */
+.ourcafes-banner{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    height: 20rem;
+    background-image: url("images/coffee8.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: cornsilk;
+    background-position: bottom right;
+}
+
+.ourcafes-banner b{
+    font-size: 3rem;
+}
+
+.our-cafes> .subpage-one > .row{
+    justify-content: center;
+    align-items: center;
+}
+
+.our-cafes> .subpage-one > .row>.column{ 
+    padding: 1rem;
+}
+
+iframe{
+    width: 25rem;
+}
+
+.learn> .two> .row> .col p{
+    padding: 2rem;
+    line-height: 1.2em;
+    font-size: 1.22em;
+}
+
+.learn> .two> .row> .col h4, span{
+   margin-left: 2rem;
+}
+
+/* The Source */
+.thesource>.subpage-one>.row{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.thesource>.subpage-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thesource>.subpage-one>.row>.column{
+    background-color: rgba(0,0,0,0.02);
+}
+
+.thesource>.two>.row>.col{
+    width: 30rem;
+    height: 45rem;
+}
+
+.thesource>.two>.row>.col>img{
+    width: 100%;
+    height: 50%;
+    padding: 0%;
+}
+
+.thesource>.two>.row>.col>h4{
+    padding-left: 2rem;
+}
+
+.thesource>.two>.row>.col>p{
+    line-height: 1.5em;
+    font-size: 1.25em;
+}
+
+/* Contact Styles */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*:focus {
+    outline: none;
+  }
+
+  form{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    line-height: 2.5em;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    
+}
+
+form input{
+    border: none;
+    border-bottom: 1.5px solid #73401C;
+}
+
+form textarea{
+    border: 1.5px solid #73401C;
+}
+
+form h3{
+    color: black;
+}
+.contact>.subpage-one>.row>.column{
+    padding: 1rem;
+}
+
+.contact>.subpage-one>.row>.column>.map iframe{
+    padding-top: 3rem;
+    width: 35rem;
+    height: 38.3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* About Us Styles */
+.about-us>.subpage-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-us>.subpage-one>.row{
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+
+}
+.about-us>.subpage-one>.row>.column{
+    background-color: rgba(0,0,0,0.02);
+    
+}
+
+footer>span>i{
+    margin: 5px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    border-top: 1px solid lightgrey;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1.1rem 0;
+    background-color: rgba(0,0,0,0.1);
+  }
+
+  @media only screen and (max-width: 80rem) {
+    /* Navbar Responsivness  */
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        justify-content: center;
+        margin-right: 2rem;
+    }
+
+    /* Banner Responsivness */
+      
+      /* Home Responsivness */
+      main{
+        margin-bottom: 13rem;
+      }
+
+      .row{
+        flex-direction: column;
+      }
+
+      .row > .column > h1{
+        text-align: center;
+    }
+    
+
+      main>.three>.row>.column{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      main>.three>.row>.column>a>img{
+        padding: 1rem;
+        width: 90%;
+      }
+
+      main>.two>.row>.col{
+        width: 80%;
+        height: fit-content;
+        padding-bottom: 2rem;
+      }
+
+      main>.two>.row>.col>a>img{
+        width: 80%;
+        height: 40%;
+      }
+
+      /* Coffee Blends Responsivness */
+      .coffeeblends> .two>.row>.col{
+        width: 80%;
+        height: fit-content;
+        padding-bottom: 2rem;
+      }
+
+      .coffeeblends> .two>.row>.col > a > img{
+        margin-bottom: 1rem;
+        width: 80%;
+        height: 20%;
+      }
+
+      .coffeeblends> .two>.row>.col >p{
+        font-size: 2em;
+      }
+
+      .coffeeblend> .subpage-one>.row>.column img{
+        width: 100%;
+      }
+
+      .coffeeblend> .two>.row>.col >img{
+        width: 80%;
+        height: 20%;
+      }
+
+      .coffeeblend> .two>.row>.col{
+        width: 80%;
+        height: fit-content;
+        padding-bottom: 2rem;
+      }
+
+      .coffeeblend> .two>.row>.col>p,h4{
+        font-size: 2em;
+        text-align: center;
+      }
+
+      /* Brewing Equipment Responsivness */
+
+      .equipment> .subpage-one>.row>.column img{
+        width: 100%;
+      }
+       
+      .equipment> .two>.row>.col{
+         width: 80%;
+         padding-bottom: 2rem;
+         height: fit-content;
+      }
+
+      .equipment> .two>.row>.col >img{
+        width: 80%;
+        height: fit-content;
+     }
+
+     .equipment> .two>.row>.col> h4,p{
+        text-align: center;
+        font-size: 2em;
+        margin: 0;
+     }
+
+      /* Learn with us Responsivness */
+      .learn> .subpage-one>.row>.column img{
+        width: 100%;
+      }
+
+      .learn> .two>.row>.col{
+        width: 80%;
+        height: fit-content;
+      }
+
+      .learn> .two>.row>.col>p{
+        font-size: 2em;
+      }
+
+      .learn> .two>.row>.col>span{
+        font-size: 1.2em;
+      }
+
+      /* Our Cafes Responsivness */
+      .our-cafes>.subpage-one>.row>.column{
+        width: 80%;
+        height: 45rem; 
+      }
+
+      .our-cafes>.subpage-one>.row>.column>iframe{
+        width: 100%;
+        height: 42rem;
+        padding: 0%;
+      }
+
+      /* The Source Responsivness */
+      .thesource>.two>.row{
+        width: 90%;
+        padding: 1rem;
+      }
+
+      .thesource>.two>.row>.col{
+        width: 80%;
+        height: fit-content;
+      }
+
+      .thesource>.two>.row>.col>img{
+        width: 100%;
+        height: 40%;
+      }
+
+      .thesource>.two>.row>.col>p{
+        font-size: 2em;
+      }
+
+      /* Contact Responsivness */
+      .contact> .subpage-one{
+        width: 100%;
+      }
+
+      .contact> .subpage-one>.row{
+        justify-content: center;
+        align-items: center;
+      }
+      .contact> .subpage-one>.row>.column{
+        width: 90%;
+
+      }
+
+      .contact> .subpage-one>.row>.column >form{
+        width: 90%;
+        height: 40rem;
+        padding: 1rem;
+      }
+
+      .contact> .subpage-one>.row>.column>.map>iframe{
+        margin: 1rem;
+        width: 90%;
+      }
+
+      /* Footer Responsivness */
+      footer>span{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3em;
+      }
+  }
